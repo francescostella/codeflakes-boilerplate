@@ -1,7 +1,20 @@
 @import '_normalize';
 
 $bg-color: #262a2b;
+$color: #0097d8;
+$shadow: #03609b;
 
 body {
   background-color: $bg-color;
+  font-family: 'Henny Penny', cursive;
+}
+
+h1 {
+  color: $color;
+  font-size: 50px;
+  text-align: center;
+
+  span {
+    color: #fff;
+  }
 }
